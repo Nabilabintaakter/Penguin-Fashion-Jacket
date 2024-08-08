@@ -11,3 +11,65 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+/* shared styles */
+.full-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.half-container{
+    max-width: 1171px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* navbar styles */
+.header-container{
+    height: 715px;
+    background-color:rgb(255, 251, 240);
+    border: 2px solid transparent;
+}
+.header-content{
+    height: 100%;
+    border: 2px solid transparent;
+}
+.navbar{
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.nav-left img{
+    width: 291.11px;
+    height: 39.27px;
+}
+.nav-right{
+    width: 424px;
+}
+.nav-items{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(60, 60, 60);
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
