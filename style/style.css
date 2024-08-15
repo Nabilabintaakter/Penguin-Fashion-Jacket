@@ -261,7 +261,88 @@ nav{
     left: 15px;
 }
 
+/* women-jacket section */
 
+.women-jacket-container{
+    padding: 50px 20px;
+    height: auto;
+}
+.women-jacket-title h1{
+    color: rgb(54, 57, 88);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 31px;
+}
+.women-jacket-title h1{
+    text-align: center;
+}
+.women-jacket-card-container{
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.women-jacket-card{
+    width: 90%;
+    height: auto;
+}
+.women-jacket-card-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women-jacket-card-image{
+    height: auto;
+    border-radius: 20px;
+    background: rgb(241, 241, 241);
+    margin-bottom: 17px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women-jacket-1, .women-jacket-3{
+    width: 90%;
+    height: 90%;
+    border:none;
+    margin: 0 auto;
+}
+.women-jacket-2{
+    width: 80%;
+    height: 80%;
+    border:none;
+    margin: 20px auto;
+}
+
+.women-jacket-card-title{
+    margin-bottom: 13px;
+    color: rgb(54, 57, 88);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+.women-jacket-card-desc{
+    color: rgb(62, 62, 62);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.women-jacket-price{
+    margin-top: 13px;
+    justify-content: space-between;
+    align-items: center;
+}
+.women-jacket-price h3{
+    color: rgb(118, 194, 126);
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
 
 
 
