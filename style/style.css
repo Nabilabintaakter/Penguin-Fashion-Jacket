@@ -17,7 +17,6 @@ body{
     max-width: 1440px;
     margin: 0 auto;
     padding: 40px 135px;
-    border: 2px solid red;
 }
 .display-flex{
     display: flex;
@@ -194,7 +193,7 @@ nav{
     align-items: center;
 }
 .women-jacket-price,.men-jacket-price{
-    color: rgb(118, 194, 126);
+    color: rgb(250, 190, 76);
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 900;
@@ -270,6 +269,9 @@ nav{
     width: 100%;
     height: 100%;
 }
+.mobile-footer{
+    display: none;
+}
 
 /* responsiveness starts here */
 
@@ -278,7 +280,6 @@ nav{
         max-width: 576px;
         margin: 0 auto;
         padding: 27px 20px 76px 20px;
-        border: 2px solid rgb(33, 160, 1);
         }
 /* header style */
 .header-container{
@@ -375,7 +376,43 @@ nav{
     border:none;
     margin: 20px auto;
 }
-
-
+/* mobile footer section */
+.desktop-footer{
+    display: none;
 }
-
+.mobile-footer{
+    display: flex;
+}
+.footer-section-container{
+    height: auto;
+    gap: 48px;
+    flex-direction: column-reverse;
+}
+.footer-section-card-container{
+    flex-direction: column;
+    gap: 24px;
+}
+.card{
+    width: 90%;
+    height: auto;
+    padding: 25px 33px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.card-text-container{
+    text-align: center;
+}
+.card-image-container img{
+    width: 78px;
+    height: 82px;
+}
+.footer-section-image-container{
+    width: 100%;
+    height: auto;
+    border: 2px dashed gray;
+}
+}
+/* responsiveness ends here */
