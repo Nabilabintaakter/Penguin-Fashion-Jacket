@@ -349,7 +349,7 @@ nav{
     margin: 0 auto;
 }
 .women-jacket-card,.men-jacket-card{
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 .women-jacket-card-image-container,.men-jacket-card-image-container{
@@ -393,7 +393,7 @@ nav{
     gap: 24px;
 }
 .card{
-    width: 90%;
+    width: 100%;
     height: auto;
     padding: 25px 33px;
     margin: 0 auto;
