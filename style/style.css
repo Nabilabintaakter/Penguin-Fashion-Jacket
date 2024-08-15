@@ -12,14 +12,12 @@ body{
     box-sizing: border-box;
 }
 
-/* shared styles */
+/* shared style */
 .full-container{
     max-width: 1440px;
     margin: 0 auto;
-}
-.half-container{
-    max-width: 1171px;
-    margin: 0 auto;
+    padding: 40px 135px;
+    border: 2px solid red;
 }
 .display-flex{
     display: flex;
@@ -31,59 +29,51 @@ li{
     list-style-type: none;
 }
 
-/* navbar styles */
+/* header style */
 .header-container{
     height: 715px;
-    background-color:rgb(255, 251, 240);
-    border: 2px solid transparent;
-}
-.header-content{
-    height: 100%;
-}
-.navbar{
-    margin-top: 40px;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #FFFFF4;
+
 }
 .nav-left img{
-    width: 291.11px;
-    height: 39.27px;
+    width: 292px;
+    height: 40px;
 }
-.nav-right{
-    width: 424px;
+nav{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 43px;
 }
-.nav-items{
+.nav-links{
     font-family: "Roboto", sans-serif;
+    color: rgb(60, 60, 60);
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(60, 60, 60);
-    justify-content: space-between;
+    gap: 57px;
+}
+.hamburger{
+    display: none;
+}
+/* banner */
+.banner-container{
+    gap: 140px;
 }
 
-/* banner styles */
-.banner-container{
-    height: 560px;
-    margin: 0 auto;
-    gap: 80px;
-}
-.banner-text-container{
-    width: 450px;
-}
 .banner-text-container h1{
     font-family: "Bebas Neue", sans-serif;
-    font-size: 80px;
-    font-weight: 600;
+    font-size: 5rem;
+    font-weight: 700;
     line-height: 80px;
-    margin-top: 100px;
+    margin-top: 66px;
     letter-spacing: 2px;
 }
-.banner-text-container p{
+.banner-text-container>p{
     font-family: "Roboto", sans-serif;
     color: rgb(62, 62, 62);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
-    margin-top: 20px;
+    margin-top: 8px;
     margin-bottom: 20px;
 }
 .btn-primary{
@@ -111,28 +101,91 @@ li{
     border: 2px solid rgb(133, 160, 25);
 }
 .banner-image-container{
-    width: 500px;
-    height: 500px;
+    width: 470px;
+    height: 470px;
     position: relative;
+
 }
-.image-1{
-    width: 90%;
-    height: 90%;
+.banner-image-container .green-circle{
+    width: 100%;
+    height: 98%;
     position: absolute;
-    top: 30px;
-    left: 50px;
 }
-.image-2{
-    width: 80%;
+.banner-image-container .girl{
+    width: 94%;
+    height: 630px;
+    position: absolute;
+    bottom: 9px;
+    left: 28px;
+}
+
+/* responsiveness starts here */
+
+@media screen and (max-width:576px){
+    .full-container{
+        max-width: 576px;
+        margin: 0 auto;
+        padding: 27px 20px 76px 20px;
+        border: 2px solid rgb(33, 160, 1);
+        }
+/* header style */
+.header-container{
     height: auto;
+}
+.nav-left img{
+    width: 200px;
+    height: 30px;
+}
+nav{
+    margin-bottom: 52px;
+}
+.nav-links{
+    display: none;
+}
+.hamburger{
+    display: block;
+}
+/* banner */
+.banner-container{
+    flex-direction: column;
+    gap: 42px;
+}
+.banner-text-container h1{
+    font-size: 4.75rem;
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
+.banner-text-container p br{
+    display: none;
+}
+.btn-primary p{
+    color: rgb(255, 255, 255);
+}
+.image-parent{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image-container{
+    width: 275px;
+    height: 100%;
+}
+.banner-image-container .girl{
+    width: 94%;
+    height: 370px;
     position: absolute;
-    z-index: 10;
-    bottom: 16px;
-    left: 90px;
+    bottom: 5px;
+    left: 15px;
 }
 
 
 
 
 
+
+
+
+}
 
