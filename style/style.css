@@ -119,12 +119,12 @@ nav{
     left: 28px;
 }
 
-/* causal backpack styles */
+/* women jacket styles */
 
-.women-jacket-container{
+.women-jacket-container,.men-jacket-container{
     height: 709px;
 }
-.women-jacket-title h1{
+.women-jacket-title h1,.men-jacket-title h1{
     color: rgb(54, 57, 88);
     font-family: "Bebas Neue", sans-serif;
     font-size: 48px;
@@ -132,10 +132,10 @@ nav{
     line-height: 48px;
     margin-bottom: 31px;
 }
-.women-jacket-card-container{
+.women-jacket-card-container,.men-jacket-card-container{
     justify-content: space-between;
 }
-.women-jacket-card{
+.women-jacket-card,.men-jacket-card{
     width: 370px;
     height: 550px;
     border-radius: 20px;
@@ -143,7 +143,7 @@ nav{
     background: rgb(255, 255, 255);
     padding: 18px 18px 23px 18px;
 }
-.women-jacket-card-image{
+.women-jacket-card-image,.men-jacket-card-image{
     width: 334px;
     height: 327px;
     border-radius: 20px;
@@ -172,7 +172,7 @@ nav{
     margin-left: 60px;
 }
 
-.women-jacket-card-title{
+.women-jacket-card-title,.men-jacket-card-title{
     margin-bottom: 13px;
     color: rgb(54, 57, 88);
     font-family: "Roboto", sans-serif;
@@ -181,23 +181,43 @@ nav{
     line-height: 28px;
     margin-bottom: 8px;
 }
-.women-jacket-card-desc{
+.women-jacket-card-desc,.men-jacket-card-desc{
     color: rgb(62, 62, 62);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-.women-jacket-price{
+.women-jacket-price,.men-jacket-price{
     margin-top: 13px;
     justify-content: space-between;
     align-items: center;
 }
-.women-jacket-price h3{
+.women-jacket-price,.men-jacket-price{
     color: rgb(118, 194, 126);
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 900;
+}
+/* man jacket section */
+.men-jacket-1{
+    width: 202px;
+    height:270px;
+    border: 2px dashed gray;
+    margin: 20px 65px;
+}
+.men-jacket-2{
+    width: 243px;
+    height: 256px;
+    border: 2px dashed gray;
+    margin: 35px 45.5px;
+}
+.men-jacket-3{
+    width: 210px;
+    height: 280px;
+    border: 2px dashed gray;
+    margin-top: 26px;
+    margin-left: 63px;
 }
 
 /* responsiveness starts here */
